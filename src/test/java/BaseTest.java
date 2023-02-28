@@ -24,6 +24,6 @@ public class BaseTest {
                                            .build();
         RequestLoggingFilter reqLog = new RequestLoggingFilter();
         ResponseLoggingFilter resLog = new ResponseLoggingFilter();
-        RestAssured.filters(resLog, resLog);
+        RestAssured.filters(reqLog, resLog);
     }
 }
