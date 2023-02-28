@@ -11,7 +11,7 @@ public class UpdatePostTest extends BaseTest {
 
         Post createdPost = given()
                                 .spec(reqSpec)
-                                .pathParam("postId", 2)
+                                .pathParam("postId", 4)
                                 .body(newPost).
                            when()
                                 .put("{postId}").

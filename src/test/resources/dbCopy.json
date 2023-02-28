@@ -14,6 +14,21 @@
       "id": 3,
       "title": "Trzeci",
       "author": "Kasia"
+    },
+    {
+      "id": 4,
+      "title": "Update",
+      "author": "Kasia"
+    },
+    {
+      "id": 5,
+      "title": "Usuń mnie",
+      "author": "Kasia"
+    },
+    {
+      "id": 6,
+      "title": "Patch",
+      "author": "Kasia"
     }
   ],
   "comments": [
